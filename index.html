@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #201D1F;
+      margin: 0;
+      padding: 0;
+      color:#fff;
+    }
+
+    header {
+    align-items: left;
+      padding: 40px 20px 10px;
+    }
+    header h1{
+      color: aqua;
+    }
+
+
+    .container {
+      display: flex;
+      justify-content: center;
+      
+      padding: 40px 20px;
+    }
+
+    .card1 {
+      background-color: #fff;
+      border-radius: 18px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin: 10px;
+    }
+
+
+    .card1:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 16px 32px #f70776;
+    }
+        .container:hover .card1{
+      filter:blur(3px);
+      opacity:0.6;
+    }
+
+    .container .card1:hover{
+      filter:none;
+      opacity:1;
+
+    }
+
+
+    .card1 img {
+      width: 100%;
+      height: auto;
+      display: block;
+      
+    }
+
+   .card2 {
+      background-color: #fff;
+      border-radius: 18px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin: 10px;
+    }
+
+    .card2:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 16px 32px #00bbf0;
+    }
+
+        .container:hover .card2{
+      filter:blur(3px);
+      opacity:0.6;
+    }
+
+    .container .card2:hover{
+      filter:none;
+      opacity:1;
+
+    }
+
+
+    .card2 img {
+      width: 100%;
+      height: auto;
+      display: block;
+      
+    }
+
+   .card3 {
+      background-color: #fff;
+      border-radius: 18px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin: 10px;
+    }
+
+    .card3:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 16px 35px #42b883;
+    }
+
+        .container:hover .card3{
+      filter:blur(3px);
+      opacity:0.6;
+    }
+
+    .container .card3:hover{
+      filter:none;
+      opacity:1;
+
+    }
+
+
+    .card3 img {
+      width: 100%;
+      height: auto;
+      display: block;
+      
+    }
+
+
+
+    .cardtesto {
+      padding: 16px;
+      color:#010101
+    }
+
+    .cardtitolo {
+      font-size: 1.5em;
+      margin: 0 0 10px;
+      color: #333;
+    }
+
+    .carddescrizione {
+      font-size: 1em;
+      color: #555;
+    }
+
+    .testocontenuto{
+    padding:40px 20px 10px;
+
+}
+   li{
+   padding:20px 20px 10px;   
+    
+}
+
+  #i1{
+  color:red
+}
+
+  #i2{
+  color:orange
+} 
+
+  #i3{
+  color:yellow
+}   
+
+  #i4{
+    color:rgb(213, 99, 99)
+  }
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+   
+    
+   
+      
+
+
+
+
+  <header>
+    <h1>Di cosa ci occupiamo?</h1>
+    <p>Siamo dei programmatori principianti con una passione per le moto e volovamo condividere questa passione con voi iniziando con il creare questo sito web. In questa pagina vogliamo parlare di tre settori di moto molti famosi:</p>
+  </header>
+
+  <div class="container">
+    <div class="card1">
+      <img src="ktm.png">
+      <div class="cardtesto">
+        <h2 class="cardtitolo">Settore 1</h2>
+        <p class="carddescrizione">Questo è <a href="ktm.html"> il primo settore</a> che ti proponiamo</p>
+        </div>
+        
+
+    </div>
+
+        <div class="card2">
+      <img src="h.png">
+      <div class="cardtesto">
+        <h2 class="cardtitolo">settore 2</h2>
+        <p class="carddescrizione">Questo è <a href="h.html"> il secondo settore </a>che ti proponiamo</p>
+        </div>
+        
+
+    </div>
+
+        <div class="card3">
+      <img src="y.jpg">
+      <div class="cardtesto">
+        <h2 class="cardtitolo">settore 3</h2>
+        <p class="carddescrizione">Questo è <a href="y.html"> il terzo settore </a>che ti proponiamo</p>
+        </div>
+        
+
+    </div>
+
+  </div>
+
+<div class="testocontenuto">
+  <p>In questi tre settori analizzeremo per ognuno 3 moto appartenenti ai settori.I tipi di moto che potremmo analizzare sono:
+  <ul type="square">
+  <li id="i1">Moto da enduro</li> 
+  <li id="i2">Moto da cross</li> 
+  <li id="i3">Moto stradali</li> 
+  <li id="i4">Supermoto</li>
+  </ul>
+</div> 
+
+
+
+</body>
+</html>
