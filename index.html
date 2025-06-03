@@ -241,9 +241,7 @@
   <li id="i4">Supermoto</li>
   </ul>
 </div> 
-  <div class="contatore">
-    <p>Numero di visite: <span id="visit-counter"></span></p>
-        <script>
+   <script>
         // Recupera il numero di visite dal localStorage
         let visits = localStorage.getItem("visitCount");
         visits = visits ? parseInt(visits) + 1 : 1;
@@ -252,6 +250,9 @@
         // Mostra il numero di visite nella pagina
         document.getElementById("visit-counter").textContent = visits;
     </script>
+  <div class="contatore">
+    <p>Numero di visite: <span id="visit-counter"></span></p>
+       
   </div>
 
 
